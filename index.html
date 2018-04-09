@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="stylingPort.css">
+
+
+	<link rel="shortcut icon" href="./images/ec t.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Sedgwick+Ave" rel="stylesheet">
+
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+	<title>Ecell Niec</title>
+
+ <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default " id="backToTop" style="z-index: 1000; background-color: white; height: 80px; position: fixed; top: 0px; margin-left: 0px; width:100%; left: 0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-top: 25px;">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo-dark.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" style="color: black;font-weight: 600 ;font-size: larger ;margin-top: 15px;">Home</a></li>
+
+        <li><a href="#EventScroll"  style="color: black;font-weight: 600 ;font-size: larger;margin-top: 15px; background-color: white">Events</a></li>
+
+		  <li><a href="#TeamScroll"  style="color: black;font-weight: 600 ;font-size: larger;margin-top: 15px;background-color: white">Team</a></li>
+
+ <li><a href="#testimonialFinalScroll"  style="color: black;font-weight: 600 ;font-size: larger;margin-top: 15px;background-color: white">Testimonial</a></li>
+                <li><a href="#contactScroll"  style="color: black;font-weight: 600 ;font-size: larger;margin-top: 15px;background-color: white">Contact Us</a></li>
+
+      </ul>
+      <!--something from node
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+
+      node ended-->
+    </div>
+  </div>
+
+	</nav>
+
+
+	<div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:100px auto 56px;background-image: url(images/Awesome-Art-Funky-Image.jpg);">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="sliderimages/IMG-20161110-WA0061.jpg" alt="ENTREPRENEURSHIP CELL NIEC"  title="ENTREPRENEURSHIP CELL NIEC" />
+                </li>
+                <li><img src="sliderimages/cp.jpg" alt="E-SUMMIT&apos;17"  title="E-SUMMIT&apos;17" />
+                </li>
+                <li><img src="sliderimages/IMG_2498.jpg" alt="INTERNSHIP FAIR&apos;17"  title="INTERNSHIP FAIR&apos;17" />
+                </li>
+                <li><img src="sliderimages/IMG_2501.jpg" alt="INTERNSHIP FAIR&apos;17"  title="INTERNSHIP FAIR&apos;17" />
+                </li>
+                <li><img src="sliderimages/28826950_1950886801795646_722794045287103170_o.jpg" alt="RISE&apos;18"  title="RISE&apos;18" />
+                </li>
+                <li><img src="sliderimages/IMG_4745.jpg" alt="&quot;Think entreprenur. Bleed entrepreneur&quot;"  title="&quot;Think entreprenur. Bleed entrepreneur&quot;" />
+                </li>
+                <li><img src="sliderimages/IMG_4792.jpg" />
+                </li>
+                <li><img src="sliderimages/DSC_0112.JPG" alt="ORIENTATION&apos;17"  title="ORIENTATION&apos;17" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="sliderimages/IMG-20161110-WA0061-tn.jpg" alt="ENTREPRENEURSHIP CELL NIEC" title="ENTREPRENEURSHIP CELL NIEC" /></li>
+                <li><img src="sliderimages/cp-tn.jpg" alt="E-SUMMIT&apos;17" title="E-SUMMIT&apos;17" /></li>
+                <li><img src="sliderimages/IMG_2498-tn.jpg" alt="INTERNSHIP FAIR&apos;17" title="INTERNSHIP FAIR&apos;17" /></li>
+                <li><img src="sliderimages/IMG_2501-tn.jpg" alt="INTERNSHIP FAIR&apos;17" title="INTERNSHIP FAIR&apos;17" /></li>
+                <li><img src="sliderimages/28826950_1950886801795646_722794045287103170_o-tn.jpg" alt="RISE&apos;18" title="RISE&apos;18" /></li>
+                <li><img src="sliderimages/IMG_4745-tn.jpg" alt="&quot;Think entreprenur. Bleed entrepreneur&quot;" title="&quot;Think entreprenur. Bleed entrepreneur&quot;" /></li>
+                <li><img src="sliderimages/IMG_4792-tn.jpg" /></li>
+                <li><img src="sliderimages/DSC_0112-tn.JPG" alt="ORIENTATION&apos;17" title="ORIENTATION&apos;17" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slideshow">Responsive JavaScript Image Slideshow</a></div>
+        </div>
+    </div>
+
+
+
+
+
+<br>
+
+<div class="container" id="EventScroll">
+
+	    <div class="row">
+
+		    <div class="col-lg-6  col-lg-offset-5 col-xs-8 col-xs-offset-3 " id="prevScroll">
+
+		         <h2 style="margin-left:15px;">Events</h2> <br>
+		    </div>
+		</div>
+
+<div class="row">
+<div>
+	<div class="col-lg-2 col-lg-offset-3 col-xs-4">	<button class="btn btn-default" id="allEventBtn" style="float: left;">ALL EVENTS</button> </div>
+	<div class="col-lg-2 col-xs-4">	<button class="btn btn-default" id="upcomingEventBtn" style="margin-left: 32px;">UPCOMING</button> </div>
+	<div class="col-lg-2 col-xs-4">	<button class="btn btn-default" id="previousEventBtn" style="margin-left: 62px;">PREVIOUS</button> </div>
+
+</div>
+</div>
+<br>
+	<div class="row">
+		<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">	 <img src="./images/up1.jpg" class="project" id="up1">
+</a>
+<div id="light" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">RISE_18</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:6th Feb 2018 </span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,AUDI </span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>The Entrepreneurship Cell of NIEC is proud to announce that it starts the year with the first edition of Research Innovation Seamless Execution Event-RISE’18.
+Main objective of our event is to provide students with a platform where they can acquire funding for their start up and also with some motivating and informative speaker sessions. It’s going to be a concourse of leading investors, well established entrepreneurs and ambitious students.
+</span>
+
+</p>
+
+	</div>
+  <div id="fade" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">RISE'18 </h3>
+		</div>
+
+
+
+<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light1').style.display='block';document.getElementById('fade1').style.display='block'">	 <img src="./images/intern.jpg" class="project" id="prev1">
+</a>
+<div id="light1" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light1').style.display='none';document.getElementById('fade1').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">INTERNSHIP FAIR_17</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:8th April 2017</span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,AUDI </span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>The ECell of Northern India Engineering College organized the Internship fair 2017 to bring a wide range of opportunity under one roof. On 8th April 2017 more than 50 companies with more than five hundred internship offers. The Fair was a platform where students could seek a mentor in top companies get trained to face the market and work as an intern. The fair wasn’t limited to just profiles of technical interest like robotics, product engineering but all possible field of content development, marketing, social entrepreneurship, data analytics and much more.With Gradlimited E-Cell NIEC gave them a free chance to learn to write a perfect resume under professional guidance. Top leading companies like IBM and LIC came forward to hire students from various backgrounds. Startups like CoHo, Nuts and Bolts, encipher and many more brands provided the budding entrepreneurs the opportunity to face the market under their guidance. With amazing media partners The Education Tree and DU updates and E-Cell NIEC, the footfall for the fair was more than 1000 students from all across Delhi NCR. With so many companies on board, more than 400 students were able to get the internship post the screening. With such a big event and such great success, the E-Cell NIEC continues to nurture the motto “ Think Entrepreneur, bleed Entrepreneur”.
+</span>
+
+</p>
+
+	</div>
+  <div id="fade1" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">INTERNSHIP-FAIR'17 </h3>
+		</div>
+
+
+<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light2').style.display='block';document.getElementById('fade2').style.display='block'">	 <img src="./images/Flex.jpg" class="project" id="prev2">
+</a>
+<div id="light2" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light2').style.display='none';document.getElementById('fade2').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">ORIENTATION_17</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:10th October 2017</span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,BLOCK-4</span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>Take a leap of faith and begin this wondrous E-Cell NIEC's orientation by believing. 
+Believe in yourself and believe that there is a loving Source -hope to Dream - just waiting to be asked to help you make your dreams come true.
+</span>
+
+</p>
+
+	</div>
+  <div id="fade2" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">ORIENTATION'17 </h3>
+		</div>
+
+
+
+	</div>
+
+
+	<div class="row">
+
+<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light3').style.display='block';document.getElementById('fade3').style.display='block'">	 <img src="./images/product_1484485649382.png" class="project" id="prev3">
+</a>
+<div id="light3" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light3').style.display='none';document.getElementById('fade3').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">SUMMIT_17</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:31st January 2017</span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,AUDI</span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>
+
+To encourage the spirit of Entrepreneurship and foster young minds The ECell of Northern India Engineering College organized its first big event for 2017 E-summit’17. On 31st January 2017, we had India's top 5 leading industrial giants on the same platform to share their experiences and bridging the gap between budding ideas and their implementations.
+The national level speakers included Mr. Onkar K Khullar popularly known as "Digital Gandhi". A name of the multi talented successful ideal in the world of Entrepreneurship. A Social Entrepreneur, TedX Speaker, Blogger, Business Consultant, Philosopher and what not. 1 person living 10 lives with the motto to leave an impact on the world.
+Married to coding and affair with Entrepreneurship Mr. Ankush Singla, Proud Co-Founder of Coding Blocks and Coding Ninjas. Started by IIT Delhi then Stanford University he took his skill to the next level working with big companies like Facebook and Amazon. Singla was a living legend in the programming world.
+The Summit was greatly honored by one of the leading ladies in the business world founder of Ploysz Multiservices Pvt. Ltd and Carbon fixers Payal Rastogi This lady is a living example of woman power and the "never give up" spirit of an entrepreneur.
+Mr. Rahul Tyagi, Vice President at Lucideus, The life of this man can be summed up within the 5 genres An Entrepreneurs, Cyber Space Researcher, Ethical Hacker, Trainer and An Author. Born in an ordinary family of Punjab, he shared his success story and his desire to go an extra mile.
+The last speaker of the day was the proud alumni of NIEC Mr. Rahul Juneja CEO of Let's Play. Being a fitness model himself he decided to revolutionize fitness scenario of the country and founded RJ let's play. This proved out to be India’s most sought-after fitness equipment servicing, maintenance, relocation and installation service provider
+E-Cell NIEC made the summit an interactive session with fun activities like Couch Potato, Startup War, Discovering Entrepreneur and  Bizz quiz to nurture the moto of E-cell NIEC “ Think Entrepreneur, bleed Entrepreneur”
+
+</span>
+
+</p>
+
+	</div>
+  <div id="fade3" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">E-SUMMIT'17 </h3>
+		</div>
+
+
+<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light4').style.display='block';document.getElementById('fade4').style.display='block'">	 <img src="./images/d.png" class="project" id="prev4">
+</a>
+<div id="light4" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light4').style.display='none';document.getElementById('fade4').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">INTERNSHIP FAIR_16</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:10th October 2016</span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,BLOCK-4</span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>
+
+The Entrepreneurship Cell of NIEC hosted a one day Internship Fair. The fair brought on board various startups seeking interns in various fields, Employers from business, government and non-profit agencies hired people for full-time and part-time internships. It was an excellent opportunity for first year students and alumni to make important contacts and network with company representatives. Pleasing stipend and important career guidance were also provided to the participants.
+<br>
+Some of the Job profiles offered were  :
+<br>
+Business Development,<br>
+Marketing,<br>
+Data Analysts,<br>
+Content Writing,<br>
+Finance and Accounting,<br>
+Research,<br>
+Growth Hacking,<br>
+And many more.
+
+
+</span>
+
+</p>
+
+	</div>
+  <div id="fade4" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">INTERNSHIP-FAIR'16</h3>
+		</div>
+
+
+
+
+<div class="projectSet col-lg-4 col-xs-12">
+			<a href="javascript:void(0)" onclick="document.getElementById('light5').style.display='block';document.getElementById('fade5').style.display='block'">	 <img src="./images/sss.jpg" class="project" id="prev5">
+</a>
+<div id="light5" class="white_content"> <a href="javascript:void(0)" onclick="document.getElementById('light5').style.display='none';document.getElementById('fade5').style.display='none'"><i class="fa fa-2x fa-window-close-o" aria-hidden="true" style="float:right"></i></a>
+<h3 style="color:whitesmoke">SUMMIT_16</h3>
+<p style="color:whitesmoke">
+ <span style="font-size:20px;font-family:monospace">DATE:10th October 2016</span><br>
+ <span style="font-size:20px;font-family:monospace">VENUE:NIEC,BLOCK-4</span><br>
+ <span style="font-size:20px;font-family:monospace">ABOUT:<br></span><span>
+
+
+E-Cell NIEC organized this summit for bringing together budding Entrepreneurs, Ventures, Startups and other major contributors to the Entrepreneurial ecosystem.                                                          <br>     The summit consisted of:
+> National level Business spokesperson <br>
+> Investors <br>
+> Associates <br>
+> NIEC Alumni Entrepreneurs <br>
+
+Various competitions like Biz Quiz were also conducted to make people aware with entrepreneurship. The summit made a mark in the Delhi-NCR entrepreneurship circuit by making a large section of students aware with being an entrepreneur and the journey involved in it 
+</span>
+
+</p>
+
+	</div>
+  <div id="fade5" class="black_overlay"></div>
+			<h3 style="text-align: center" class="upTitle">E-SUMMIT'16</h3>
+		</div>
+
+
+
+
+
+
+
+	</div>
+
+<!--team by 3-->
+
+
+
+	<div class="row"  id="TeamScroll">
+		<br>
+
+		<div class="col-lg-6  col-lg-offset-5 col-xs-7 col-xs-offset-3">
+
+			<h2 style="margin-left: 25px;">TEAM</h2>
+      <br>
+
+		</div>
+	</div>
+
+
+	<!--team first  row-->
+
+	<div class="row">
+
+
+		<div class="col-lg-4 col-xs-12 teamHead">
+<img src="./images/rrr.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/Shivangi4196"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/shivangi-mittal-864844b5/"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+			<h3 class="nameOfhead">SHIVANGI MITTAL</h3>
+			<h5 class="deptOfHead">PRESIDENT</h5>
+		</div>
+
+
+		<div class="col-lg-4  col-xs-12 teamHead">
+			<img src="./images/IMG_2929.png" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/mailme.pulkitjain"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/pulkit-jain-068771113"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+			<h3 class="nameOfhead">PULKIT JAIN</h3>
+			<h5 class="deptOfHead">VICE PRESIDENT</h5>
+
+		</div>
+
+		<div class="col-lg-4 col-xs-12 teamHead">
+            <img src="./images/kartik.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/kartikjhawrites"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="google.com"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">KARTIK JHA</h3>
+            <h5 class="deptOfHead">GENERAL SECRETARY</h5>
+            <h5 class="deptOfHead">RESEARCH AND DEVELOPMENT</h5>
+        </div>
+
+	
+
+
+
+	</div>
+	<br>
+
+
+	<!--team second row-->
+
+
+
+    <div class="row">
+
+
+        <div class="col-lg-4 col-xs-12 teamHead">
+            <img src="./images/0.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/sachi.gupta.7902?ref=br_rs"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/sachi-gupta-79294313a/"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">SACHI GUPTA</h3>
+            <h5 class="deptOfHead">CONTENT</h5>
+        </div>
+
+
+        <div class="col-lg-4 col-xs-12 teamHead">
+            <img src="./images/pranav.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/peropranav"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">PRANAV KAPOOR</h3>
+            <h5 class="deptOfHead">WEB DEVELOPMENT</h5>
+
+        </div>
+
+        <div class="col-lg-4  col-xs-12 teamHead">
+            <img src="./images/22791555_1541060269317615_8775924915671104772_o.jpg"class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/peropranav"><i class="fa fa-facebook"></i></a>&nbsp;</a></div>
+      </div>
+            <h3 class="nameOfhead">KASHISH ARORA</h3>
+            <h5 class="deptOfHead">GRAPHICS</h5>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!--team third row-->
+
+    <div class="row">
+
+		<div class="col-lg-4 col-xs-12 teamHead image">
+            <img src="./images/naman.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/abhishek.aggarwal.94214508"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/abhishek-aggarwal-5b5b56110"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">ABHISHEK AGGARWAL</h3>
+            <h5 class="deptOfHead">MANAGEMENT</h5>
+        </div>
+
+        <div class="col-lg-4 col-xs-12 teamHead">
+            <img src="./images/11134229_1420422441608241_1984289920_n.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://https://www.facebook.com/aakash.tyagi.14661"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/aakash-tyagi-65771615b"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">AAKASH TYAGI</h3>
+            <h5 class="deptOfHead">MARKETING</h5>
+
+        </div>
+
+        <div class="col-lg-4 col-xs-12 teamHead">
+            <img src="./images/IMG_20170617_133919.jpg" class="teamHeadImages image">
+			<div class="middle">
+				<div class="text"><a href="https://www.facebook.com/namandonn"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp;<a href="https://www.linkedin.com/in/naman-aggarwal-023624114/"><i class="fa fa-linkedin"></i></a> </div>
+			</div>
+            <h3 class="nameOfhead">NAMAN AGGARWAL</h3>
+            <h5 class="deptOfHead">CREATIVE</h5>
+
+        </div>
+
+    </div>
+    <!--team four row-->
+
+</div>
+
+<br> 
+<div class="container content" id="testimonialFinalScroll"> <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> <!-- Indicators --> <ol class="carousel-indicators"> <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> <li data-target="#carousel-example-generic" data-slide-to="1"></li> <li data-target="#carousel-example-generic" data-slide-to="2"></li> </ol> <!-- Wrapper for slides --> <div class="carousel-inner"> <div class="item active"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="testimonial/onkar.png"> </div> <div class="col-md-10 col-sm-10 col-xs-12"> <div class="caption"> <p class="text-info lead adjust2">Excellent organization</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> A bunch of talented students doing amazing work.</p> <blockquote class="adjust2"> <p>Onkar K Khullar aka Digital Gandhi</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> https://www.onkar.world</cite></small> </blockquote> </div> </div> </div> </div> </div> </div> <div class="item"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="testimonial/ankush.png"> </div> <div class="col-md-10 col-sm-10 col-xs-12"> <div class="caption"> <p class="text-info lead adjust2">Amazing Management</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> Very good event conducted by E-Cell NIEC.</p> <blockquote class="adjust2"> <p>Ankush Singla (Founder of Coding Ninjas)</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> https://www.codingninjas.in</cite></small> </blockquote> </div> </div> </div> </div> </div> </div> <div class="item"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="testimonial/rahul.png"> </div> <div class="col-md-10 col-sm-10 col-xs-12"> <div class="caption"> <p class="text-info lead adjust2">One of the most engaging crowd.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> Great Team, Great Session, Great initiative.</p> <blockquote class="adjust2"> <p>Rahul Tyagi (Vice President at Lucideus)</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> http://www.lucideus.com</cite></small> </blockquote> </div> </div> </div> </div> </div> </div> </div> <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div> </div>
+
+<br>
+<br>
+
+<div class="container" id="contactScroll">
+    <div class="row">
+    
+        <div class="col-md-6">
+          <br>
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                    <div class="text-center header" style=" background-color: #F5F5F5;
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;">REACH US</div>
+                    <div class="panel-body text-center">
+                        <h4 style="margin-top: -37px;" >NIEC</h4>
+                        <div>
+                        FC-26, Shastri Park<br />
+                        New Delhi<br />
+                        PIN CODE-110051<br />
+                        </div>
+                       
+                        <div id="map1" class="map">
+      
+
+<div class="google-maps">
+  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.3965539824517!2d77.25908331430836!3d28.677781982399935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc5e54e6b163%3A0x523ae20fe007eccc!2sNorthern+India+Engineering+College!5e0!3m2!1sen!2sin!4v1523192812560" width="600" height="450" frameborder="0" style="border:0"></iframe>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+
+     .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    
+    }
+</style>
+
+
+
+
+
+	<footer class="footer-distributed" style="margin-top:10px;">
+
+		<div class="footer-left">
+
+			<img src="images/ec t2.png" style="width: 120px; height: 120px">
+      <img src="images/NIEC-Logo.png" style="width: 120px; height: 120px; margin-left: 30px">
+
+      <div style="margin-top: 25px">
+			<p class="footer-company-name">Made by bunch of Ecell Members &copy; 2018 </p>
+      <br>
+      <p class="footer-company-name" style="">Mr. ANKIT AGARWAL SIR</p>
+      <P class="footer-company-name">(FACULTY COORINATOR)</P>
+      </div>
+     
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Northern India Engineering College</span> FC-26, Shastri Park, New Delhi</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>7838147792, 9818839290</p>
+
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="#">niececell@gmail.com</a></p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Our Mission</span>
+				The primary mission of the cell is to imbue the spirit of entrepreneurship in students and faculty community from various colleges across India, inspire and encourage them to take on entrepreneurial challenges, and assist them in their efforts to launch and run business ventures.
+
+			</p>
+
+			<div class="footer-icons">
+
+				<a href="https://www.facebook.com/ECELLNIEC/"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/Ecell_Niec"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/ecellniec/?hl=en"><i class="fa fa-instagram"></i></a>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+
+
+
+</body>
+<script type="text/javascript" src="custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1gC3KLbKu725nGocmYAtjYpmQhK4WslY&callback=myMap"></script>
+
+
+</html>

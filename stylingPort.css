@@ -1,0 +1,372 @@
+@font-face {
+font-family: "LemonMilklight";
+src: url("LemonMilklight.otf");
+src: 
+url("LemonMilklight.otf") format("woff"),
+url("LemonMilklight.otf") format("opentype"),
+
+}
+
+*{
+    font-family: LemonMilklight;
+
+}    
+
+.me{
+    height: 300px;
+    width:300px;
+    border-radius: 60%;
+    margin-top: 10%;
+    box-shadow: 10px 10px 5px #888888;
+}
+body{
+ color: black;
+background-size: cover;
+}
+
+.social{
+padding-top: 4%;
+    width: 18%;
+    display: inline-block;
+
+}
+h1{
+
+    font-size: 35px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+
+}
+
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
+
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+  height: 90%;
+  padding: 16px;
+  border: 16px solid orange;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1002;
+  overflow: auto;
+}
+
+.skill{
+    display: inline-block;
+    padding: 2%;
+}
+.size{
+    box-shadow:10px 10px 5px #888888 ;
+    height: 60%;
+    width: 80%;
+}
+.project {
+    height: 300px;
+    width: 350px;
+    display: inline-block;
+    box-shadow: 5px 5px 3px #888888;
+}
+
+
+.projectSet{
+display: inline-block;
+    padding: 2%;
+
+
+}
+.project:hover{
+
+    box-shadow: 10px 10px 5px #888888;
+    transition: 0.6s;
+}
+h2{
+    font-size: 35px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+
+.mySlides {display:none;}
+
+.formStyle
+{
+    background-color:whitesmoke;
+    height: 430px;
+
+
+}
+
+
+.teamHead
+{
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+.teamHeadImages
+{
+   width: 90%;
+height: 75%;
+    border-radius:inherit;
+
+}
+
+
+
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+
+
+.nameOfhead
+{
+    text-align: center;
+    margin-left: -30px;
+}
+.deptOfHead
+{
+    text-align: center;
+        margin-left: -30px;
+
+}
+
+
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.teamHead:hover .image {
+    opacity: 0.4;
+}
+
+.teamHead:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    font-size: 55px;
+    text-align: center;
+
+
+}
+
+
+.image2{
+    display: none;
+}
+
+@media only screen and (max-width: 499px)
+{
+.image1{
+    display: none;
+}
+
+    .image2
+    {
+        display: block;
+    }
+}
