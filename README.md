@@ -1,3 +1,3 @@
 
 reach us on
-https://ecell-niec.github.io/Niec-Ecell/
+https://pulkitjain2704.github.io/EcellNiec/index.html
